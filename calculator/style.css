@@ -1,0 +1,26 @@
+body {
+    font-family: Arial, sans-serif;
+  }
+  .calculator {
+    width: 250px;
+    margin: 0 auto;
+    background-color: #f0f0f0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    text-align: center;
+  }
+  .display {
+    font-size: 24px;
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+  }
+  .buttons {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+  }
+  .button {
+    font-size: 18px;
+    padding: 10px;
+    cursor: pointer;
+  }
