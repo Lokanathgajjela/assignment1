@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Survey</title>
+    <link rel="stylesheet" href="./survey.css">
+</head>
+
+
+<body>
+    <div class="form-container">
+        <h2>Survey Form</h2>
+        <form id="survey-form">
+            <label for="first-name">First Name:</label>
+            <input type="text" id="first-name" required><br>
+
+            <label for="last-name">Last Name:</label>
+            <input type="text" id="last-name" required><br>
+
+            <label for="date-of-birth">Date of Birth:</label>
+            <input type="date" id="date-of-birth" required><br>
+
+            <label for="country">Country:</label>
+            <select id="country" required>
+                <option value="INDIA">INDIA</option>
+                <option value="Canada">Canada</option>
+                <option value="UK">UK</option>
+                <!-- Add more options as needed -->
+            </select><br>
+
+            <label>Gender:</label><br>
+            <input type="checkbox" id="male" name="gender" value="Male">
+            <label for="male">Male</label>
+            <input type="checkbox" id="female" name="gender" value="Female">
+            <label for="female">Female</label><br>
+
+            <label for="profession">Profession:</label>
+            <input type="text" id="profession" required><br>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" required><br>
+
+            <label for="mobile">Mobile Number:</label>
+            <input type="tel" id="mobile" required><br>
+
+            <button type="button" id="submit-button">Submit</button>
+            <button type="button" id="reset-button">Reset</button>
+        </form>
+    </div>
+
+    <div id="popup" style="display: none;">
+        <h2>Survey Results</h2>
+        <div id="results"></div>
+    </div>
+
+    <script src="./survye.js">
+       
+    </script>
+</body>
+</html>
